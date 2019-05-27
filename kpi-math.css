@@ -1,0 +1,69 @@
+body {
+	font-family: 'QlikView Sans', sans-serif !important;
+}
+
+
+.qvplaceholder, .qvobject {
+	height: 120px;
+	min-width: 120px;
+}
+
+#popup {
+	background-color: #c3534b;
+	color: #FFFFFF;
+	position: fixed;
+	max-width: 250px;
+	padding: 10px;
+	margin: 10px;
+	bottom: 0;
+	right: 0;
+	display: none;
+	border-radius: 5px;
+	z-index: 6;
+	font-family: sans-serif;
+}
+
+.close {
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+	position: absolute;
+	right: 9px;
+	top: 7px;
+}
+
+.close:hover {
+	opacity: .5;
+}
+
+#popupText {
+	margin-right: 23px;
+}
+
+#infodiv {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	color: #CCCCCC;
+}
+
+#answer {
+	display: flex;
+	justify-content: center;
+	font-size: 96px;
+	color: black;
+	font-weight: normal !important;
+}
+
+.kpiheader {
+	font-weight: bold;
+	font-size: 20px;
+}
